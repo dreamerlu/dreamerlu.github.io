@@ -56,7 +56,7 @@ function show_time()
    int_minute="0"+int_minute;  
   if(int_second<10)  
    int_second="0"+int_second;  
-  str_time="距离你的deadline还有:"+int_day+"天"+int_hour+"小时"+int_minute+"分钟"+int_second+"秒";  
+  str_time="距离你提交论文的deadline还有:"+int_day+"天"+int_hour+"小时"+int_minute+"分钟"+int_second+"秒";  
   timer.innerHTML=str_time;  
   setTimeout("show_time()",1000);  
  }  
